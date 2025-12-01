@@ -53,7 +53,7 @@ function openGitHub() {
 }
 
 function openLinkedIn() {
-  window.open("https://linkedin.com/in/nikhiel-lingard", "_blank");
+  window.open("https://www.linkedin.com/in/nikhiel-lingard-88b3a4311/", "_blank");
 }
 
 // Skill bar fill animation
