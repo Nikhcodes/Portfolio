@@ -25,7 +25,7 @@ body {
   background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
   pointer-events: none;
   transform: translate(-50%, -50%);
-  z-index: 9999;
+  z-index: 1; /* lowered below content */
   transition: opacity 0.3s;
 }
 
@@ -189,6 +189,8 @@ nav a:hover {
   justify-content: center;
   gap: 18px;
   margin-top: 24px;
+  position: relative; /* ensures z-index works */
+  z-index: 10; /* above cursor-glow */
 }
 
 .social-icon {
@@ -365,3 +367,4 @@ h2 {
     font-size: 2rem;
   }
 }
+
