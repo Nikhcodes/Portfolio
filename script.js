@@ -49,11 +49,11 @@ function openEmail() {
 }
 
 function openGitHub() {
-  window.open("https://github.com/Nikhcodes", "_blank");
+  window.open("https://github.com/Nikhcodes");
 }
 
 function openLinkedIn() {
-  window.open("https://www.linkedin.com/in/nikhiel-lingard-88b3a4311/", "_blank");
+  window.open("https://www.linkedin.com/in/nikhiel-lingard-88b3a4311/");
 }
 
 // Skill bar fill animation
@@ -68,4 +68,5 @@ const skillObserver = new IntersectionObserver(
   },
   { threshold: 0.5 }
 );
+
 
